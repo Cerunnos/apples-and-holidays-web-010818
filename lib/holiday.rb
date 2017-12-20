@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday,supplies|
       first_var=["  #{holiday.capitalize}:"]
       second_var=supplies.join(", ")
-      first_var<<supplies
+      first_var<<second_var
       puts first_var.join(" ")
     end
   end
