@@ -84,4 +84,7 @@ def all_holidays_with_bbq(holiday_hash)
       if supplies.include?("BBQ")
         array1<<holiday
       end
+    end
+  end
+  array1
 end
