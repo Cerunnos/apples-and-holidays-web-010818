@@ -70,7 +70,6 @@ def all_supplies_in_holidays(holiday_hash)
       first_var=["  #{holiday.capitalize}:"]
       first_var<<supplies
       puts first_var.join(" ")
-      end
     end
   end
 end
